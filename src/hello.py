@@ -1,3 +1,5 @@
 #hello.py
 
-print("hello world")
+import sys
+
+print("hello", sys.arg[1])
